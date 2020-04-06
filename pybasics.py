@@ -36,5 +36,5 @@ print(x.split(',')) #splits words in the string and creates several strings (mak
 
 #Finally, introduce yourself:
 print('Enter your name: ')
-x=input()
+x=input() #User enters name to be introduced
 print('Welcome to the Python club, '+x+'!')
