@@ -19,9 +19,9 @@ x=70
 y=85.0
 z=100j
 
-print(type(x))
-print(type(y))
-print(type(z))
+print(type(x)) #returns 'integer' class
+print(type(y)) #returns 'float' class
+print(type(z)) #returns 'complex' class
 
 #Manipulation with 'x' variable:
 x = '   Python is one love   '
