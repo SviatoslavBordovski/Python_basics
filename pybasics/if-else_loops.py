@@ -1,9 +1,7 @@
 #Main goal here is to show how you can work with Python if/else statements and loops
 
-if 10 > 3:
-    print('10 is really greater than 3')
+num = 0 #Assign value for 'num' variable
 
-num = 0
 if num  > 0:
     print('Fantastic!')
 elif num == 0:
