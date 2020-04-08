@@ -1,3 +1,5 @@
+#Main goal here is to show how you can wrl with if/else statements and loops
+
 if 10 > 3:
     print('10 is really greater than 3')
 
