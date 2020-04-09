@@ -14,7 +14,7 @@ else:
 num = [1,2,3,4,5]
 sum = 0
 for var in num:
-    sum=sum+var
+    sum = sum + var
 
 print('TOTAL IS', sum)
 
