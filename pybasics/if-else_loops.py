@@ -10,9 +10,9 @@ elif num == 0:
 else:
     print('Number is negative')
 
-#Contimue  manioulation declaring the array:
+#Contimue  manipulation by declaring the array with data:
 num = [1,2,3,4,5]
-sum=0
+sum = 0
 for var in num:
     sum=sum+var
 
