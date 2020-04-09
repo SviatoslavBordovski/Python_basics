@@ -2,7 +2,7 @@
 
 num = 0 #Assign value for 'num' variable
 
-#Lets quickly show the manipulation with 'num' variable
+#Lets quickly show the manipulation with 'num' variable:
 if num  > 0:
     print('Fantastic!')
 elif num == 0:
@@ -10,6 +10,7 @@ elif num == 0:
 else:
     print('Number is negative')
 
+#Contimue  manioulation declaring the array:
 num = [1,2,3,4,5]
 sum=0
 for var in num:
