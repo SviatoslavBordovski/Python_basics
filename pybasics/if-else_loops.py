@@ -35,6 +35,6 @@ x = 1
 
 while x < num:
     val = val + x
-    x=x+1
+    x = x + 1
     print(val, x)
 print('Final prompt of "val" number when "x" becomes 10 is: ', val)
