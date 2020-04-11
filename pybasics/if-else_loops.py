@@ -33,7 +33,7 @@ num = 10
 val = 0
 x = 1
 
-while x < num: #Loop that gives opprotunity to to run it while some value achieves the goal
+while x < num: #Loop that gives opprotunity to to run it until some value achieves the goal
     val = val + x
     x = x + 1
     print(val, x)
