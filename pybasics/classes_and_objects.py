@@ -27,4 +27,4 @@ Kyle.sum(20,9) #access the function inside of the class
 
 #Function remove from the 'UnoMomemto' object:
 del UnoMomento.sum
-print(UnoMomento.sum)
+print(UnoMomento.sum) #Traceback: class UnoMomento has no attribute 'sum'
