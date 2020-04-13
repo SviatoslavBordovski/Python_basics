@@ -24,3 +24,7 @@ print("Kyle's Passport age is " + passage)
 print("Application age of Kyle is " + realage)
 
 Kyle.sum(20,9) #access the function inside of the class
+
+#Function remove from the 'UnoMomemto' object:
+del UnoMomento.sum
+print(UnoMomento.sum)
