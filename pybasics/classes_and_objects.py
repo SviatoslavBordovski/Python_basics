@@ -4,7 +4,7 @@ class UnoMomento:
     
     realname = 'Sviatoslav'
     
-    def __init__(self, nickname, age):
+    def __init__(self, nickname, age): #Class functions that begins with double underscore (__) are called special functions as they have special meaning
         self.nickname = nickname
         self.age = age
 
