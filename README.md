@@ -6,7 +6,7 @@
     <ol>
     <li><a href="https://github.com/SviatoslavBordovski/Python_basics/blob/master/pybasics/variables-syntax-functions-comments.py">Syntax, comments, functions</a></li>
     <li><a href="https://github.com/SviatoslavBordovski/Python_basics/blob/master/pybasics/if-else_loops.py">If/else statements and Loops</a></li>
-    <li>Classes and objects</li>
+    <li><a href="https://github.com/SviatoslavBordovski/Python_basics/blob/master/pybasics/classes_and_objects.py">Classes and objects</a></li>
     <li></li>
     </ol>
   </body>
