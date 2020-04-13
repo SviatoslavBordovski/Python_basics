@@ -1,4 +1,7 @@
 class UnoMomento:
+    ''' Methods are functions defined inside the body of a class. They are used to define the behaviors of an object. '''
+    #This is an example of the object description that is named "UnoMomento".
+    
     realname = 'Sviatoslav'
     
     def __init__(self, nickname, age):
