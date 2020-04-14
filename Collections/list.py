@@ -1,6 +1,6 @@
 list_of_cities = ['Tokyo', 'London', 'New York']
 
-print(list_of_cities) #array list is fully printed
+print(list_of_cities) #List is fully printed
 print(list_of_cities[2]) #London is an output
 
 #Lets change the New York to Kiev:
@@ -23,13 +23,13 @@ list_of_cities.clear() #makes the list of array totally clear
 
 print(list_of_cities)
 
-#Declare list in array
+#Declare list in array:
 fruits = ['apples', 'oranges', 'cherry']
 print(fruits)
 fruits.reverse()
 print(fruits)
 
-#Declare different types of lists in the array
+#Declare different types of lists in the array:
 random_list_2019 = ['vegetables', 1, 2, 3.0]
 random_list_2020 = ['vegetables', [1, 2, 3], ['x', 'y', 'z']]
 print(random_list_2020[1][2]) #access to the second statement list and third value which is 3
