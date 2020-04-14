@@ -5,7 +5,7 @@ x = learn(30,30) #We have a value stored to 'x' but it is defined as 'None'
 
 #On this stage x = 'None', let's handle that thing :)
 
-#Quick workaround to make it interactive in the terminal
+#Quick workaround to make it interactive in the terminal:
 if x == None:
     x = 60
     print('Good job, "x" is 60 now!')
@@ -14,10 +14,10 @@ else:
 
 print('Looks like it is still', x) #Can we double check the value 'x'? Yes, we can!
 
-#Now let's define the values for different variables and see the type of each one
-x=70
-y=85.0
-z=100j
+#Now let's define the values for different variables and see the type of each one:
+x = 70
+y = 85.0
+z = 100j
 
 print(type(x)) #returns 'integer' class
 print(type(y)) #returns 'float' class
@@ -36,5 +36,5 @@ print(x.split(',')) #splits words in the string and creates several strings (mak
 
 #Finally, introduce yourself:
 print('Enter your name: ')
-x=input() #User enters name to be introduced
-print('Welcome to the Python club, '+x+'!')
+x = input() #User enters name to be introduced
+print('Welcome to the Python club, ' + x + '!')
