@@ -4,8 +4,8 @@ class UnoMomento:
     
     realname = 'Sviatoslav'
     
-    ##Class functions that begins with double underscore (__) are called special functions as they have special meaning:
-    def __init__(self, nickname, age): #This type of function is also called constructors in OOP. We normally use it to initialize all the variables.
+    #Class functions that begins with double underscore (__) are called special functions as they have special meaning:
+    def __init__(self, nickname, age): #This type of function is also called 'constructors' in OOP. We normally use it to initialize all the variables.
         self.nickname = nickname
         self.age = age
 
