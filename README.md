@@ -18,5 +18,6 @@
         <p>:point_right: </p>
       </ul>
     </ol>
+</div>
   </body>
 </html>
