@@ -1,7 +1,7 @@
 <html>
   <body>
     <h1>:snake: Python: step by step for beginners</h1>
-<p>Series of guides about the manipulations and practical usage of <code>Python</code> programming language in the <code>SQA</code>.</p>
+<p>Series of guides about the manipulations :trollface: and practical usage of <code>Python</code> programming language in the <code>SQA</code>.</p>
 <h2>Content</h2>
     <ol>
       <li>Basics</li>
