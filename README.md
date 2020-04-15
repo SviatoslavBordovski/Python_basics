@@ -2,7 +2,7 @@
   <body>
     <h1>:snake: Python: step by step for beginners</h1>
 <p>Series of guides about the manipulations :trollface: and practical usage of <code>Python</code> programming language in the <code>SQA</code>.</p>
-    <p>Every file of the project is designed in such way that you can paste it in VS Code or PyCharm and easily run the file in the terminal, see the output, check the comments and learn how it works on practice.</p>
+    <p>Every file of the project is designed in such way that you can paste it in <code>VS Code</code> or <code>PyCharm</code> IDE and easily run the file in the terminal, see the output, check the comments and learn how it works on practice.</p>
 <h2>Content</h2>
     <ol>
       <li>Basics</li>
