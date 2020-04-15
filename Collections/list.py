@@ -1,3 +1,5 @@
+# List [] ordered | indexed | changeable | duplicates
+
 list_of_cities = ['Tokyo', 'London', 'New York']
 
 print(list_of_cities) #List is fully printed
