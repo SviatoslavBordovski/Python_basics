@@ -20,10 +20,10 @@ print(tuple_2[2][0]) #Executed 'Ford'
 tuple_2[2][0] = 'Nissan' #We are replacing Ford in the tuple_2
 print(tuple_2)
 
-print('Bananas' in tuple_1) #Output would give us True
-print('Cherry' in tuple_1) #Output would give us False
+print('Bananas' in tuple_1) #output would give us True
+print('Cherry' in tuple_1) #output would give us False
 
 #Errors or limitations of tuple:
-tuple_1[3] = 'Cherry' #it is not possible to add / assign new value to tuple
+tuple_1[3] = 'Cherry' #it is not possible to add/assign new value to tuple
 del tuple_1[2] #impossible to delete particular value from the tuple
-del tuple_1 #however, it is allowed to delete tuple fully
+del tuple_1 #however, it is allowed to delete the tuple fully
