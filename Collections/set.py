@@ -1,7 +1,7 @@
 # Set {} unordered | unindexed |
 
 set_1 = {'Toyota', 'Honda', 'Nissan'}
-#print(set_1[1]) #would throw a traceback since it is unindexed and unordered
+#print(set_1[1]) - would throw a traceback since it is unindexed and unordered
 
 for x in set_1:
     print(x)
@@ -23,3 +23,10 @@ print(set_1)
 set_1.discard('Nissmo') #removes the selected value of set (reusable)
 print(set_1)
 set_1.discard('Suzuki') #use instead of 'remove' if you you are not sure it was deleted or not to avoid errors
+
+#del set_1
+
+print(set_1) #traceback thrown
+
+set_2 = {'Apples', 24, 37, (3,4,5)}
+print(set_2)
