@@ -1,4 +1,4 @@
-# Set {} unordered | unindexed |
+# Set {} unordered | unindexed | no duplicates
 
 set_1 = {'Toyota', 'Honda', 'Nissan'}
 #print(set_1[1]) - would throw a traceback since it is unindexed and unordered
