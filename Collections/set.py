@@ -26,7 +26,7 @@ set_1.discard('Suzuki') #use instead of 'remove' if you you are not sure it was 
 
 #del set_1
 
-print(set_1) #traceback thrown
+print(set_1) #traceback thrown if 27th row is not commented
 
 set_2 = {'Apples', 24, 37, (3,4,5)}
 print(set_2)
