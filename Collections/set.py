@@ -22,7 +22,7 @@ set_1.remove('Suzuki') #removes the selected value of set
 print(set_1)
 set_1.discard('Nissmo') #removes the selected value of set (reusable)
 print(set_1)
-set_1.discard('Suzuki') #use instead of 'remove' if you you are not sure it was deleted or not to avoid errors
+set_1.discard('Suzuki') #use it instead of 'remove' if you are not sure it was deleted or not to avoid errors
 
 #del set_1
 
