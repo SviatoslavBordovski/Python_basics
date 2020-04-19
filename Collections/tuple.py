@@ -7,6 +7,7 @@ print(tuple_1[1]) #Executed second in the list of tuple_1
 print(tuple_1[-1]) #Executed first from the end
 print(tuple_1[0:2]) #Executed selected data range of the tuple_1
 
+#It is easy to execute the tuple using loop:
 for fruit in tuple_1:
     print(fruit)
 
