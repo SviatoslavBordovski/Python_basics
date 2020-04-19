@@ -6,7 +6,7 @@ set_1 = {'Toyota', 'Honda', 'Nissan'}
 for x in set_1:
     print(x)
     
-#Verify that Honda exists in set:
+#Verify that 'Honda' value exists in set:
 print('Honda' in set_1) #output is True or False
 
 set_1.add('Subaru') #added single element, always randomly
