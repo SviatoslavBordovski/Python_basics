@@ -28,5 +28,6 @@ set_1.discard('Suzuki') #use it instead of 'remove' if you are not sure it was d
 
 print(set_1) #traceback thrown if 27th row is not commented
 
+#Try to make something interesting with a new set:
 set_2 = {'Apples', 24, 37, (3,4,5)}
 print(set_2)
