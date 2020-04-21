@@ -15,9 +15,7 @@
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/list.py">List</a></p>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/tuple.py">Tuple</a></p>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/set.py">Set</a></p>
-        <p>:point_right: </p>
-  
-  https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/collections_dictionary.py
+        <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/collections_dictionary.py">Dictionary</a></p>
     </ol>
 </div>
   </body>
