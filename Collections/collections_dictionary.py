@@ -49,4 +49,4 @@ print(dict_1)
 
 #Delete the dictionary fully:
 del(dict_1)
-print(dict_1) #returns traceback since it was deleted/not defined
+print(dict_1) #returns a traceback since it was deleted/not defined
