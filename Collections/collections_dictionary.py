@@ -1,5 +1,6 @@
 # Dictionary {K:V} unorderfed | changable | indexed | no duplicates
 
+#Declare the test dictionary:
 dict_1 = {
     'class': 'Golf',
     'name': 'Volkswagen',
