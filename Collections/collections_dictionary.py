@@ -32,7 +32,7 @@ print(dict_1)
 dict_1['color'] = 'Yellow'
 print(dict_1)
 
-#Remove color:
+#Remove added previously color:
 dict_1.pop('color')
 print(dict_1)
 
