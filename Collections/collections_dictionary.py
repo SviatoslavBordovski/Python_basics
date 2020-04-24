@@ -44,7 +44,7 @@ print(dict_1)
 del dict_1['class']
 print(dict_1)
 
-#Removes all the values in the dictionary, so returns empty dictionary:
+#Remove all the values in the dictionary, so the program returns empty dictionary:
 dict_1.clear()
 print(dict_1)
 
