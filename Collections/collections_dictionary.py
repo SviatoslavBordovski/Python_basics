@@ -16,7 +16,7 @@ print(dict_1.values()) #dictionary values are executed only
 for x in dict_1:
     print(x)
     
-#How to execute the values in dictionary:
+#How to execute the values in dictionary with a loop:
 for x in dict_1:
     print(dict_1[x])
     
