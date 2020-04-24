@@ -2,10 +2,10 @@
 
 #Declare the test dictionary:
 dict_1 = {
-    'class': 'Golf',
-    'name': 'Volkswagen',
-    'trim': '1.6 TDI Variant'
-}
+          'class': 'Golf',
+          'name': 'Volkswagen',
+          'trim': '1.6 TDI Variant'
+         }
 
 print(dict_1) #execute the declared dictionary
 print(dict_1['name']) #get the chosen value from dictionary
