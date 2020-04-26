@@ -1,4 +1,4 @@
-# Dictionary {K:V} unordered | changable | indexed | no duplicates
+# Dictionary {K:V} unordered | changeable | indexed | no duplicates
 
 #Declare the test dictionary:
 dict_1 = {
