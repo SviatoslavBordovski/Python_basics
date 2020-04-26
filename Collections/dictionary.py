@@ -1,6 +1,6 @@
 # Dictionary {K:V} unordered | changeable | indexed | no duplicates
 
-#Declare the test dictionary:
+#Declare a test dictionary:
 dict_1 = {
           'class': 'Golf',
           'name': 'Volkswagen',
@@ -12,7 +12,7 @@ print(dict_1['name']) #get the chosen value from dictionary
 print(dict_1.get('name')) #get the chosen value from dictionary
 print(dict_1.values()) #dictionary values are executed only
 
-#How to execute the name of the value in dictionary:
+#How to execute a name of the value in dictionary:
 for x in dict_1:
     print(x)
     
