@@ -1,7 +1,7 @@
 import unittest
 from unittest_file import Burito
 
-# Run unit tests in this file through Linux terminal with the following command:
+# Run unit tests in this file through Linux terminal to execute the result with the following command:
 # python -m unittest testcases_for_unitests.py
 
 class MyTestCase(unittest.TestCase):
