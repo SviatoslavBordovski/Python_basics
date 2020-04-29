@@ -2,7 +2,7 @@ import unittest
 from unittest_file import Burito
 
 # Run unit tests in this file through Linux terminal to execute the result with the following command:
-# python3 -m unittest test_cases.py
+# python3 -m unittest test_cases.py (it confirms usage of 3rd Python version since 2nd version is not supported anymore)
 
 class MyTestCase(unittest.TestCase):
 
