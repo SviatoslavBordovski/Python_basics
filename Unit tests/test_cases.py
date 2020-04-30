@@ -9,3 +9,7 @@ class MyTestCase(unittest.TestCase):
     def test_add(self): #quick test that shows values which would be added and result would be calculated
         result = Burito.add(self, 10, 20)
         self.assertEqual(result, 30)
+
+    def test_sub(self):
+        result = Burito.sub(self, 100, 50)
+        self.assertEqual(result, 50)
