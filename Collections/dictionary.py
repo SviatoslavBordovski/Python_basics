@@ -40,7 +40,7 @@ print(dict_1)
 dict_1.popitem()
 print(dict_1)
 
-#Remove the particular value that you want:
+#Remove the particular dictonary value that you want:
 del dict_1['class']
 print(dict_1)
 
