@@ -26,7 +26,7 @@ list_of_cities.clear() #makes the list of array totally clear
 #Execute the list after changes:
 print(list_of_cities)
 
-#Declare list in array:
+#Declare a list of fruits in array:
 fruits = ['apples', 'oranges', 'cherry']
 print(fruits)
 fruits.reverse()
