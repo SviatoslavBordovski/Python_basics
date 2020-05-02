@@ -2,7 +2,7 @@
 
 list_of_cities = ['Tokyo', 'London', 'New York']
 
-print(list_of_cities) #List is fully printed
+print(list_of_cities) #List is printed
 print(list_of_cities[2]) #London is an output
 
 #Lets change the New York to Kiev:
