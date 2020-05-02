@@ -32,7 +32,7 @@ print(fruits)
 fruits.reverse()
 print(fruits)
 
-#Declare different types of lists in the array:
+#Declare different types of lists in the arrays:
 random_list_2019 = ['vegetables', 1, 2, 3.0]
 random_list_2020 = ['vegetables', [1, 2, 3], ['x', 'y', 'z']]
 print(random_list_2020[1][2]) #access to the second statement list and third value which is 3
