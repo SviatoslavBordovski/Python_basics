@@ -7,6 +7,10 @@ from unittest_file import Burito
 class MyTestCase(unittest.TestCase):
     
     @classmethod
+    def setUpClass(cls):
+        print('Start the project test suite to verify the code works properly')
+    
+    @classmethod
     def tearDownClass(cls):
         print('Good job. Finish line of the project unittests!')
     
