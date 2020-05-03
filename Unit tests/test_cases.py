@@ -7,8 +7,9 @@ from unittest_file import Burito
 class MyTestCase(unittest.TestCase):
 
     def test_add(self): #quick test that shows values which would be added and result would be calculated
-        result = Burito.add(self, 10, 20)
-        self.assertEqual(result, 30)
+        self.assertEqual(Burito.add(self, 10, 20), 30)
+        self.assertEqual(Burito.add(self, 0, 0), 0)
+        self.assertEqual(Burito.add(self, -1, 1), 0)
 
     def test_sub(self):
         result = Burito.sub(self, 100, 50)
