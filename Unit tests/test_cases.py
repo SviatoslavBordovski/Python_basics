@@ -7,11 +7,11 @@ from unittest_file import Burito
 class MyTestCase(unittest.TestCase):
     
     @classmethod
-    def setUpClass(cls): #Will run always before test cases/test suite/specified methods
+    def setUpClass(cls): #Will run always before test cases/test suites/specified methods
         print('Start the project test suite to verify the code works properly')
     
     @classmethod
-    def tearDownClass(cls):
+    def tearDownClass(cls): #Will run always after all passed test cases/test suites/specified methods
         print('Good job. Finish line of the project unittests!')
     
     def setUp(self):
