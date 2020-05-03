@@ -5,6 +5,9 @@ from unittest_file import Burito
 # 'python3 -m unittest test_cases.py' (it confirms usage of 3rd Python version since 2nd version is not supported anymore)
 
 class MyTestCase(unittest.TestCase):
+    
+    def tearDown(self):
+        print('Test passed successfully')
 
     def test_add(self): #quick test that shows values which would be added and result would be calculated
         self.assertEqual(Burito.add(self, 10, 20), 30)
