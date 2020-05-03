@@ -6,6 +6,10 @@ from unittest_file import Burito
 
 class MyTestCase(unittest.TestCase):
     
+    @classmethod
+    def tearDownClass(cls):
+        print('Good job. Finish line of the project unittests!')
+    
     def setUp(self):
         print('Test started successfully')
     
