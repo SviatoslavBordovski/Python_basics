@@ -17,7 +17,7 @@ class MyTestCase(unittest.TestCase):
     def setUp(self): #will run the result before every method
         print('Test started successfully')
     
-    def tearDown(self):
+    def tearDown(self): #will run the result after every method
         print('Test passed successfully')
 
     def test_add(self): #quick test that shows values which would be added and result would be calculated
