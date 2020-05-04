@@ -25,6 +25,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(Burito.add(self, 0, 0), 0)
         self.assertEqual(Burito.add(self, -1, 1), 0)
 
-    def test_sub(self):
+    def test_sub(self): #one more quick test
         result = Burito.sub(self, 100, 50)
         self.assertEqual(result, 50)
