@@ -14,7 +14,7 @@ class MyTestCase(unittest.TestCase):
     def tearDownClass(cls): #Will run always after all passed test cases/test suites/specified methods
         print('Good job. Finish line of the project unittests!')
     
-    def setUp(self):
+    def setUp(self): #will run the result before every method
         print('Test started successfully')
     
     def tearDown(self):
