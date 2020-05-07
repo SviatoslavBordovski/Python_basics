@@ -8,5 +8,5 @@ class Burito:
     def sub(self,x,y): #declare a function that subtracts one variable value from another one
         return x - y
 
-    def notSimilar(self,x,y):
+    def notSimilar(self,x,y): #declare a function that checks difference between two numbers
         return x is not y
