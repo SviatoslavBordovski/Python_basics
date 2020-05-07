@@ -7,3 +7,6 @@ class Burito:
 
     def sub(self,x,y): #declare a function that subtracts one variable value from another one
         return x - y
+
+    def notSimilar(self,x,y):
+        return x is not y
