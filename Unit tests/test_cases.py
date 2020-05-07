@@ -29,5 +29,5 @@ class MyTestCase(unittest.TestCase):
         result = Burito.sub(self, 100, 50)
         self.assertEqual(result, 50)
 
-    def test_notSimilar(self): #Check values are not the same
+    def test_notSimilar(self): #Check values do not match
         self.assertIsNot(Burito.notSimilar(self, 50, 60), 50)
