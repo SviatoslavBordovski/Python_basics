@@ -5,9 +5,10 @@
     <p>Every file of the project is designed in such way that you can paste it in <code>VS Code</code> or <code>PyCharm</code> IDE and easily run the file in the terminal, see the output, check the comments and learn how it works on practice.</p>
     <p>:godmode: Project is ongoing, so something :new: and :cool: would be added month by month to stay in fit :v:</p>
 <h2>Content</h2>
+    
+<div>
     <ol>
       <li>Basics</li>
-<div>
       <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Basics/variables_syntax_functions_comments.py">Syntax, comments, functions</a></p>
     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Basics/if-else_loops.py">If/else statements and Loops</a></p>
     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Basics/classes_and_objects.py">Classes and objects</a></p>
@@ -16,6 +17,12 @@
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/tuple.py">Tuple</a></p>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/set.py">Set</a></p>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/collections_dictionary.py">Dictionary</a></p>
+      
+      
+ <li>Unit testing</li>
+        <p>:point_right: <a href=" https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/unittest_file.py">Setting up the tests</a></p>
+        <p>:point_right: <a href="">N/A</a></p>
+        <p>:point_right: <a href="">N/A</a></p>
     </ol>
 </div>
   </body>
