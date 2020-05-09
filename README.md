@@ -20,9 +20,9 @@
       
       
  <li>Unit testing</li>
-        <p>:point_right: <a href=" https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/unittest_file.py">Setting up the tests</a></p>
-        <p>:point_right: <a href="">N/A</a></p>
-        <p>:point_right: <a href="">N/A</a></p>
+        <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/unittest_file.py">Setting up the tests</a></p>
+        <p>:point_right: <a href="#">N/A</a></p>
+        <p>:point_right: <a href="#">N/A</a></p>
     </ol>
 </div>
   </body>
