@@ -1,3 +1,4 @@
+<!doctype_html>
 <html>
   <body>
     <h1>:snake: Python: step by step for beginners</h1>
@@ -17,7 +18,6 @@
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/tuple.py">Tuple</a></p>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/set.py">Set</a></p>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/collections_dictionary.py">Dictionary</a></p>
-      
       
  <li>Unit Testing</li>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/unittest_file.py">Set up Unit Tests</a></p>
