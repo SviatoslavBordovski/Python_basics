@@ -1,4 +1,4 @@
-<!doctype_html>
+<!DOCTYPE html>
 <html>
   <body>
     <h1>:snake: Python: step by step for beginners</h1>
