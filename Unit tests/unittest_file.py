@@ -11,5 +11,5 @@ class Burito:
     def notSimilar(self,x,y): #declare a function that checks difference between two numbers
         return x is not y
     
-    def falseValue(self,x,y):
+    def falseValue(self,x,y): #declare a function that checks the false equality of values
         return x == y
