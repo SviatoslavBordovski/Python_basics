@@ -1,4 +1,4 @@
-# File where classes would be called from time to time in my unit tests
+# File where classes would be called from time to time in my unit tests as OOP practice
 
 class Burito:
 
