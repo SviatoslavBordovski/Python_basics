@@ -10,3 +10,6 @@ class Burito:
 
     def notSimilar(self,x,y): #declare a function that checks difference between two numbers
         return x is not y
+    
+    def falseValue(self,x,y):
+        return x == y
