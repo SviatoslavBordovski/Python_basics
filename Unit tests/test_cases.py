@@ -32,5 +32,5 @@ class MyTestCase(unittest.TestCase):
     def test_notSimilar(self): #check values do not match
         self.assertIsNot(Burito.notSimilar(self, 50, 60), 50)
         
-    def test_falseValue(self):
+    def test_falseValue(self): #check if the value is really 'False'
         self.assertFalse(Burito.falseValue(self, 'z', 'q'), False)
