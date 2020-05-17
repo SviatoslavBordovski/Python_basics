@@ -20,6 +20,6 @@ class JustSimpleTestCase(unittest.TestCase):
         time.sleep(3) #Verify loaded page
         print('Python documentation detected!') #Execute test case result in the terminal
         
-    def tearDown(self):
+    def tearDown(self): #Conditions that run after every test execution
         self.driver.close()
         self.driver.quit()
