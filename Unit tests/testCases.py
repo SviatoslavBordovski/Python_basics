@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class JustSimpleTestCase(unittest.TestCase):
     
-    def setUp(self):
+    def setUp(self): #Preconditions that would run for each test case
         self.driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
         self.driver.implicitly_wait(10)
         self.driver.maximize_window()
