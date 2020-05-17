@@ -11,3 +11,9 @@ class JustSimpleTestCase(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
         self.driver.implicitly_wait(10)
         self.driver.maximize_window()
+        
+        
+        
+    def tearDown(self):
+        self.driver.close()
+        self.driver.quit()
