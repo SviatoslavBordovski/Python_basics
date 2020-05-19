@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class JustSimpleTestCase(unittest.TestCase):
     
     def setUp(self): #Preconditions that would run for each test case
-        self.driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
+        self.driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver') #Path to the driver
         self.driver.implicitly_wait(10) #Wait until element becomes visible for interaction
         self.driver.maximize_window() #Make browser window opened fully
        
