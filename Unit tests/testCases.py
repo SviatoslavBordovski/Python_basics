@@ -13,7 +13,7 @@ class JustSimpleTestCase(unittest.TestCase):
         self.driver.maximize_window() #Make browser window opened fully
        
     def test_search(self):
-        self.driver.get('http://www.google.com') #Open website
+        self.driver.get('http://www.google.com') #Open the needed website
         self.driver.find_element_by_name('q').send_keys('Python documentation') #Type search keys
         self.driver.find_element_by_name('btnK').click() #Find and click on 'Google search' button
         self.driver.find_element_by_class_name('LC20lb').click() #Navigate to the selected link
