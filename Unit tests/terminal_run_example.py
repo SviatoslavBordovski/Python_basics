@@ -20,7 +20,7 @@ class MyTestCase(unittest.TestCase):
     def tearDown(self): #Will run the result after every method run
         print('Test passed successfully')
 
-    def test_add(self): #quick test that shows values which would be added and result would be calculated
+    def test_add(self): #Quick test that shows values which would be added and result would be calculated
         self.assertEqual(Burito.add(self, 10, 20), 30)
         self.assertEqual(Burito.add(self, 0, 0), 0)
         self.assertEqual(Burito.add(self, -1, 1), 0)
