@@ -25,3 +25,6 @@ class JustSimpleTestCase(unittest.TestCase):
     def tearDown(cls): #Conditions that run after every test execution
         cls.driver.close()
         cls.driver.quit()
+
+if __name__== '__main__':
+    unittest.main()
