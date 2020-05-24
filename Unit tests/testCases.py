@@ -21,7 +21,7 @@ class JustSimpleTestCase(unittest.TestCase):
         print('Python documentation detected!') #Execute test case result in the terminal
         
     @classmethod
-    def tearDown(cls): #Conditions that run after every test execution
+    def tearDownClass(cls): #Conditions that run after every test execution
         cls.driver.close()
         cls.driver.quit()
 
