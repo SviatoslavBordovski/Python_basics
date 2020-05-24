@@ -25,5 +25,5 @@ class JustSimpleTestCase(unittest.TestCase):
         cls.driver.close()
         cls.driver.quit()
 
-if __name__== '__main__':
+if __name__== '__main__': #Simplicity of test run in the terminal
     unittest.main()
