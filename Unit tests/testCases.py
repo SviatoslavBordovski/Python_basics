@@ -17,6 +17,17 @@ class JustSimpleTestCase(unittest.TestCase):
         time.sleep(5)
         print('Personal blog detected')
         
+    def test_openDropdown(self):
+        self.driver.get('https://www.seleniumeasy.com/test/') #Open website
+        self.driver.find_element_by_class_name('dropdown').click()
+        self.driver.find_element_by_xpath("//ul[@class='dropdown-menu']//a[contains(text(),'Simple Form Demo')]").click() #Click on 'Simple Form Demo' button
+        time.sleep(5) #Verify loaded page
+        self.driver.find_element_by_id('at-cv-lightbox-close').click()
+        self.driver.find_element_by_id('user-message').send_keys('Selenium Python')
+        self.driver.find_element_by_class_name('btn').click()
+        time.sleep(5)
+        print('Message showed')
+        
     @classmethod
     def tearDownClass(cls): #Conditions that run after every test execution
         cls.driver.close()
