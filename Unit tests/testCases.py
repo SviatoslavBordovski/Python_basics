@@ -21,12 +21,22 @@ class JustSimpleTestCase(unittest.TestCase):
         self.driver.get('https://www.seleniumeasy.com/test/') #Open website
         self.driver.find_element_by_class_name('dropdown').click()
         self.driver.find_element_by_xpath("//ul[@class='dropdown-menu']//a[contains(text(),'Simple Form Demo')]").click() #Click on 'Simple Form Demo' button
-        time.sleep(5) #Verify loaded page
+        time.sleep(3) #Verify loaded page
         self.driver.find_element_by_id('at-cv-lightbox-close').click()
         self.driver.find_element_by_id('user-message').send_keys('Selenium Python')
         self.driver.find_element_by_class_name('btn').click()
-        time.sleep(5)
+        time.sleep(3)
         print('Message showed')
+        
+    def test_ajaxFormSubmit(self):
+        self.driver.get('https://www.seleniumeasy.com/test/') #Open website
+        self.driver.find_element_by_class_name('dropdown').click()
+        self.driver.find_element_by_xpath("//ul[@class='dropdown-menu']//a[contains(text(),'Ajax Form Submit')]").click()
+        time.sleep(3)
+        self.driver.find_element_by_id('title').send_keys('Sviatoslav Bordovski')
+        self.driver.find_element_by_id('description').send_keys('Test form submission')
+        self.driver.find_element_by_id('btn-submit').click()
+        print('Form submitted')
         
     @classmethod
     def tearDownClass(cls): #Conditions that run after every test execution
