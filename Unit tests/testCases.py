@@ -39,7 +39,7 @@ class JustSimpleTestCase(unittest.TestCase):
         print('Form submitted')
         
     @classmethod
-    def tearDownClass(cls): #Conditions that run after every test execution
+    def tearDownClass(cls): #Conditions that run after all the tests execution
         cls.driver.close()
         cls.driver.quit()
 
