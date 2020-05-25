@@ -14,8 +14,11 @@ class JustSimpleTestCase(unittest.TestCase):
        
     def test_openWebsite(self):
         self.driver.get('https://bordovski.pp.ua')
-        time.sleep(5)
-        print('Personal blog detected')
+        time.sleep(3)
+        self.driver.find_element_by_name('s').send_keys('Сицилія'+Keys.ENTER)
+        self.driver.find_element_by_link_text('Iталійські мандри: чим живе острів Сицилія?').click()
+        self.driver.find_element_by_id('menu-item-5654').click()
+        print('Sicily blog post was found')
         
     def test_openDropdown(self):
         self.driver.get('https://www.seleniumeasy.com/test/') #Open website
@@ -25,7 +28,6 @@ class JustSimpleTestCase(unittest.TestCase):
         self.driver.find_element_by_id('at-cv-lightbox-close').click()
         self.driver.find_element_by_id('user-message').send_keys('Selenium Python')
         self.driver.find_element_by_class_name('btn').click()
-        time.sleep(3)
         print('Message showed')
         
     def test_ajaxFormSubmit(self):
