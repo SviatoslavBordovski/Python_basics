@@ -12,7 +12,7 @@ class JustSimpleTestCase(unittest.TestCase):
         cls.driver.implicitly_wait(10) #Wait until element becomes visible for interaction
         cls.driver.maximize_window() #Make browser window opened fully
        
-    def test_openWebsite(self):
+    def test__1_openWebsite(self):
         self.driver.get('https://bordovski.pp.ua')
         time.sleep(3)
         self.driver.find_element_by_name('s').send_keys('Сицилія'+Keys.ENTER)
@@ -20,7 +20,7 @@ class JustSimpleTestCase(unittest.TestCase):
         self.driver.find_element_by_id('menu-item-5654').click()
         print('Sicily blog post was found')
         
-    def test_openDropdown(self):
+    def test_2_openDropdown(self):
         self.driver.get('https://www.seleniumeasy.com/test/') #Open website
         self.driver.find_element_by_class_name('dropdown').click()
         self.driver.find_element_by_xpath("//ul[@class='dropdown-menu']//a[contains(text(),'Simple Form Demo')]").click() #Click on 'Simple Form Demo' button
@@ -30,7 +30,7 @@ class JustSimpleTestCase(unittest.TestCase):
         self.driver.find_element_by_class_name('btn').click()
         print('Message showed')
         
-    def test_ajaxFormSubmit(self):
+    def test_3_ajaxFormSubmit(self):
         self.driver.get('https://www.seleniumeasy.com/test/') #Open website
         self.driver.find_element_by_class_name('dropdown').click()
         self.driver.find_element_by_xpath("//ul[@class='dropdown-menu']//a[contains(text(),'Ajax Form Submit')]").click()
