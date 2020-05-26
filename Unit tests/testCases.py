@@ -12,7 +12,7 @@ class JustSimpleTestCase(unittest.TestCase):
         cls.driver.implicitly_wait(10) #Wait until element becomes visible for interaction
         cls.driver.maximize_window() #Make browser window opened fully
        
-    def test__1_openWebsite(self):
+    def test_1_openWebsite(self):
         self.driver.get('https://bordovski.pp.ua')
         time.sleep(3)
         self.driver.find_element_by_name('s').send_keys('Сицилія'+Keys.ENTER)
@@ -32,7 +32,7 @@ class JustSimpleTestCase(unittest.TestCase):
         
     def test_3_ajaxFormSubmit(self):
         self.driver.get('https://www.seleniumeasy.com/test/') #Open website
-        self.driver.find_element_by_class_name('dropdown').click()
+        self.driver.find_element_by_class_name('dropdown').click() #Open the very left dropdown
         self.driver.find_element_by_xpath("//ul[@class='dropdown-menu']//a[contains(text(),'Ajax Form Submit')]").click()
         time.sleep(3)
         self.driver.find_element_by_id('title').send_keys('Sviatoslav Bordovski')
