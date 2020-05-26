@@ -15,7 +15,7 @@ class JustSimpleTestCase(unittest.TestCase):
     def test_1_openWebsite(self):
         self.driver.get('https://bordovski.pp.ua')
         time.sleep(3)
-        self.driver.find_element_by_name('s').send_keys('Сицилія'+Keys.ENTER)
+        self.driver.find_element_by_name('s').send_keys('ryanair'+Keys.ENTER)
         self.driver.find_element_by_link_text('Iталійські мандри: чим живе острів Сицилія?').click()
         self.driver.find_element_by_id('menu-item-5654').click()
         print('Sicily blog post was found')
