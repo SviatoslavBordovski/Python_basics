@@ -13,16 +13,16 @@ class JustSimpleTestCase(unittest.TestCase):
         cls.driver.maximize_window() #Make browser window opened fully
        
     def test_1_openWebsite(self):
-        self.driver.get('https://bordovski.pp.ua')
+        self.driver.get('https://bordovski.pp.ua') #Open website
         time.sleep(3)
-        self.driver.find_element_by_name('s').send_keys('ryanair'+Keys.ENTER)
+        self.driver.find_element_by_name('s').send_keys('ryanair'+Keys.ENTER) #Search a trip post using keyword
         self.driver.find_element_by_link_text('Iталійські мандри: чим живе острів Сицилія?').click()
         self.driver.find_element_by_id('menu-item-5654').click()
         print('Sicily blog post was found')
         
     def test_2_openDropdown(self):
         self.driver.get('https://www.seleniumeasy.com/test/') #Open website
-        self.driver.find_element_by_class_name('dropdown').click()
+        self.driver.find_element_by_class_name('dropdown').click() #Open the very left dropdown
         self.driver.find_element_by_xpath("//ul[@class='dropdown-menu']//a[contains(text(),'Simple Form Demo')]").click() #Click on 'Simple Form Demo' button
         time.sleep(3) #Verify loaded page
         self.driver.find_element_by_id('at-cv-lightbox-close').click()
