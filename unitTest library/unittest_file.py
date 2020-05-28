@@ -2,7 +2,7 @@
 
 class Burito:
 
-    def add(self,x,y): #declare a function that simply adds two variables
+    def add(self,x,y): #declare a function that simply is adding two variables
         return x + y
 
     def sub(self,x,y): #declare a function that subtracts one variable value from another one
