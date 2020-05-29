@@ -33,7 +33,7 @@ class JustSimpleTestCase(unittest.TestCase):
         self.driver.get('https://www.seleniumeasy.com/test/') #Open website
         self.driver.find_element_by_class_name('dropdown').click() #Open the very left dropdown
         self.driver.find_element_by_xpath("//ul[@class='dropdown-menu']//a[contains(text(),'Ajax Form Submit')]").click()
-        time.sleep(3)
+        time.sleep(3) #Verify loaded page
         self.driver.find_element_by_id('title').send_keys('Sviatoslav Bordovski')
         self.driver.find_element_by_id('description').send_keys('Test form submission')
         self.driver.find_element_by_id('btn-submit').click()
