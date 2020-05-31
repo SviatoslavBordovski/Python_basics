@@ -30,7 +30,7 @@ class JustSimpleTestCase(unittest.TestCase):
         print('Message showed')
         
     def test_3_ajaxFormSubmit(self):
-        self.driver.get('https://www.seleniumeasy.com/test/') #Open website
+        self.driver.get('https://www.seleniumeasy.com/test/') #Open the website
         self.driver.find_element_by_class_name('dropdown').click() #Open the very left dropdown
         self.driver.find_element_by_xpath("//ul[@class='dropdown-menu']//a[contains(text(),'Ajax Form Submit')]").click()
         time.sleep(3) #Verify loaded page
