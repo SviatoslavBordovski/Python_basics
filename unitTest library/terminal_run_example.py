@@ -11,16 +11,16 @@ class MyTestCase(unittest.TestCase):
         print('Start the project test suite to verify the code works properly')
     
     @classmethod
-    def tearDownClass(cls): #Will run always after all passed test cases/test suites/specified methods
+    def tearDownClass(cls): #will run always after all passed test cases/test suites/specified methods
         print('Good job. Finish line of the project unittests!')
     
-    def setUp(self): #Will run the result before every method run
+    def setUp(self): #will run the result before every method run
         print('Test started successfully')
     
-    def tearDown(self): #Will run the result after every method run
+    def tearDown(self): #will run the result after every method run
         print('Test passed successfully')
 
-    def test_add(self): #Quick test that shows values which would be added and result would be calculated
+    def test_add(self): #quick test that shows values which would be added and result would be calculated
         self.assertEqual(Burito.add(self, 10, 20), 30)
         self.assertEqual(Burito.add(self, 0, 0), 0)
         self.assertEqual(Burito.add(self, -1, 1), 0)
@@ -29,7 +29,7 @@ class MyTestCase(unittest.TestCase):
         result = Burito.sub(self, 100, 50)
         self.assertEqual(result, 50)
 
-    def test_notSimilar(self): #check if values match or not
+    def test_notSimilar(self): #check if values match or not match
         self.assertIsNot(Burito.notSimilar(self, 50, 60), 50)
         
     def test_falseValue(self): #check if the value is really 'False'
