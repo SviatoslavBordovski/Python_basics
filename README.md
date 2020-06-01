@@ -6,7 +6,7 @@
     <p>Every file of the project is designed in the way you can just paste the code snippet in <code>VS Code</code> or <code>PyCharm</code> IDE and easily run the file in the terminal, see the output, check the comments and learn how it works on practice.</p>
     <p>:godmode: Project is ongoing, it means that something :new: and :cool: would be added month by month to stay in fit :v:</p>
 <h2>Content</h2>
-    
+
 <div>
     <ol>
       <li>Basics</li>
