@@ -4,7 +4,7 @@
 
 <h1>:snake: Python: step by step for beginners</h1>
 <p>Series of guides about the manipulations :trollface: and practical usage of <code>Python</code> programming language in the <code>SQA</code>.</p>
-    <p>Every file of the project is designed in the way you can just paste the code snippet in <code>VS Code</code> or <code>PyCharm</code> IDE and easily run the file in the terminal, see the output, check the comments and learn how it works on practice.</p>
+    <p>Every file of this project is designed in the way you can just paste the code snippet in <code>VS Code</code> or <code>PyCharm</code> IDE and easily run the file in the terminal, see the output, check the comments and learn how it works on practice.</p>
     <p>:godmode: Project is ongoing, so it means that something :new: and :cool: would be added month by month to stay in fit :v:</p>
     
 <h2>Content</h2>
