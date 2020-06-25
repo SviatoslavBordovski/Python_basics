@@ -30,7 +30,7 @@ class signInTests(unittest.TestCase):
         homepage.click_welcome()
         homepage.click_logout()
         
-        time.sleep(3)
+        time.sleep(5)
         print('Test for Login and Logout is successfully completed!')
         
     @classmethod
