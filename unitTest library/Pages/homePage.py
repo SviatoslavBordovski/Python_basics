@@ -1,6 +1,6 @@
 class HomePage():
     
-    def __init__(self,driver): #function that defines data to be clicked
+    def __init__(self,driver): #function that defines locators to be clicked
         self.driver = driver
         
         self.welcome_link_id = 'welcome'
