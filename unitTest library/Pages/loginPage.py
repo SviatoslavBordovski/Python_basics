@@ -1,6 +1,6 @@
 class LoginPage():
     
-    def __init__(self, driver):
+    def __init__(self, driver):  #function that defines locators to be clicked
         self.driver = driver
         
         self.username_textbox_id = 'txtUsername'
