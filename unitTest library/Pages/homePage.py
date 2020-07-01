@@ -6,7 +6,7 @@ class HomePage():
         self.welcome_link_id = 'welcome'
         self.logout_link_linkText = 'Logout'
         
-    def click_welcome(self): 
+    def click_welcome(self): #function that makes click for the button with a specified id
         self.driver.find_element_by_id(self.welcome_link_id).click()
         
     def click_logout(self):
