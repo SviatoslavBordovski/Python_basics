@@ -38,5 +38,5 @@ class signInTests(unittest.TestCase):
         cls.driver.close()
         cls.driver.quit()
 
-if __name__== '__main__':
+if __name__== '__main__': #Generating the HTML report to the specified folder
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='/home/incognito/Downloads/everything/projects/reports'))
