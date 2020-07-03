@@ -34,7 +34,7 @@ class signInTests(unittest.TestCase):
         print('Test for Login and Logout is successfully completed!')
         
     @classmethod
-    def tearDownClass(cls):
+    def tearDownClass(cls): #Finish line of the test case
         cls.driver.close()
         cls.driver.quit()
 
