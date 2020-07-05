@@ -31,7 +31,7 @@ class signInTests(unittest.TestCase):
         homepage.click_logout()
         
         time.sleep(5)
-        print('Test for Login and Logout was successfully completed!')
+        print('Test case for Login and Logout was successfully completed!')
         
     @classmethod
     def tearDownClass(cls): #Finish line of the test case
