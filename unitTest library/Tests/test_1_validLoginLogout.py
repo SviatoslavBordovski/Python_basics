@@ -17,7 +17,7 @@ class signInTests(unittest.TestCase):
         cls.driver.implicitly_wait(5)
         cls.driver.maximize_window()
         
-    def test_1_validLoginLogout(self): #Test case of singing in and signing out
+    def test_1_validLoginLogout(self): #Test case for singing in and signing out
         driver = self.driver
         driver.get('https://opensource-demo.orangehrmlive.com/')
         
