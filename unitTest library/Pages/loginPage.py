@@ -7,7 +7,7 @@ class LoginPage():
         self.password_textbox_id = 'txtPassword'
         self.login_button_id = 'btnLogin'
         
-    def enter_username(self, username): #function that cleans the field and types username in the field with specified id
+    def enter_username(self, username): #function that cleans the field and types username in the field with specified id of the element
         self.driver.find_element_by_id(self.username_textbox_id).clear()
         self.driver.find_element_by_id(self.username_textbox_id).send_keys(username)
         
