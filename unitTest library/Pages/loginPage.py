@@ -11,7 +11,7 @@ class LoginPage():
         self.driver.find_element_by_id(self.username_textbox_id).clear()
         self.driver.find_element_by_id(self.username_textbox_id).send_keys(username)
         
-    def enter_password(self, password): #function that cleans the field and types password in the field with specified id
+    def enter_password(self, password): #function that cleans the field and types password in the field with specified id of the element
         self.driver.find_element_by_id(self.password_textbox_id).clear()
         self.driver.find_element_by_id(self.password_textbox_id).send_keys(password)
         
