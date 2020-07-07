@@ -1,6 +1,7 @@
 from ohrm.Locators.locators import Locators
 
 class LoginPage():
+    
     def __init__(self, driver): #function that defines locators to be clicked
         self.driver = driver
         
