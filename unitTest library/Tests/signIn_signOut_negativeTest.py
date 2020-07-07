@@ -17,27 +17,32 @@ class signInTests(unittest.TestCase):
         cls.driver.implicitly_wait(5)
         cls.driver.maximize_window()
         
-    def test_1_validLoginLogout(self):
+    def test_2_invalidLoginLogout(self):
         driver = self.driver
         driver.get('https://opensource-demo.orangehrmlive.com/')
         
+        #Wrong password specified to check the validation work
         login = LoginPage(driver)
         login.enter_username('Admin')
-        login.enter_password('admin123')
+        login.enter_password('admin12345')
         login.click_login()
+        
+        #Correct password specified
+        if login.enter_password('admin12345') is not True:
+            login.enter_username('Admin')
+            login.enter_password('admin123')
+            login.click_login()
+            print('Correct credentials ¯\_(ツ)_/¯')
+        
+        else:
+            print('Contact support team!')
         
         homepage = HomePage(driver)
         homepage.click_welcome()
         homepage.click_logout()
         
-        #self.driver.find_element_by_id('txtUsername').send_keys('Admin')
-        #self.driver.find_element_by_id('txtPassword').send_keys('admin123')
-        #self.driver.find_element_by_id('btnLogin').click()
-        #time.sleep(3)
-        #self.driver.find_element_by_id('welcome').click()
-        #self.driver.find_element_by_link_text('Logout').click()
         time.sleep(3)
-        print('Test for Login and Logout is successfully completed!')
+        print(' & Test for Login and Logout is successfully completed!')
         
     @classmethod
     def tearDownClass(cls):
