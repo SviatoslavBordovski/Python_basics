@@ -38,6 +38,7 @@ class signInTests(unittest.TestCase):
         else:
             print('Contact support team!')
         
+        #Logout steps
         homepage = HomePage(driver)
         homepage.click_welcome()
         homepage.click_logout()
