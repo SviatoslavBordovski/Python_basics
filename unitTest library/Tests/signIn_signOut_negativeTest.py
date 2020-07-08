@@ -27,7 +27,7 @@ class signInTests(unittest.TestCase):
         login.enter_password('admin12345')
         login.click_login()
         
-        #Correct password specified
+        #Correct password sent
         if login.enter_password('admin12345') is not True:
             login.enter_username('Admin')
             login.enter_password('admin123')
