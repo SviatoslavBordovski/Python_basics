@@ -51,5 +51,5 @@ class signInTests(unittest.TestCase):
         cls.driver.close()
         cls.driver.quit()
 
-if __name__== '__main__': #makes separate report after every test run
+if __name__== '__main__': #Makes separate report after every test run in the specified folder
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='/home/incognito/Downloads/everything/projects/reports'))
