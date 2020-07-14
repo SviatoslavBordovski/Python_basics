@@ -2,7 +2,7 @@
 
 num = 0 #Assign value for 'num' variable
 
-#Lets quickly show the manipulation with 'num' variable:
+#Lets show the manipulation with 'num' variable:
 if num  > 0:
     print('Fantastic!')
 elif num == 0:
