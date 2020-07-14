@@ -16,7 +16,7 @@ print(len(tuple_1)) #Count of data values in the tuple
 #It is time to walk through the new tuple and change something there:
 tuple_2 = ('Oranges', (1,5,10), ['Ford', 'Toyota', 'Honda'])
 print(tuple_2)
-print(tuple_2[2][0]) #Executed 'Ford'
+print(tuple_2[2][0]) #Executed 'Ford' value
 
 tuple_2[2][0] = 'Nissan' #We are replacing Ford in the tuple_2
 print(tuple_2)
