@@ -7,7 +7,7 @@ from unittest_file import Burito
 class MyTestCase(unittest.TestCase):
     
     @classmethod
-    def setUpClass(cls): #Will run always before test cases/test suites/specified methods
+    def setUpClass(cls): #will run always before test cases/test suites/specified methods
         print('Start the project test suite to verify the code works properly')
     
     @classmethod
