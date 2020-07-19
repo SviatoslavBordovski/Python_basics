@@ -34,7 +34,7 @@ class signInTests(unittest.TestCase):
             login.click_login()
             print('Correct credentials ¯\_(ツ)_/¯')
         
-        #If none of these match program will report this message through HtmlTestRunner library
+        #If none of these сonditions match program will report this message through HtmlTestRunner library
         else:
             print('Contact support team!')
         
