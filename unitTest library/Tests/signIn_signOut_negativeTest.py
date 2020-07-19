@@ -36,7 +36,7 @@ class signInTests(unittest.TestCase):
         
         #In case if none of these сonditions match program will report this message through HtmlTestRunner library
         else:
-            print('Contact support team!')
+            print('Please contact OrangeHRM support team!')
         
         #Logout steps
         homepage = HomePage(driver)
