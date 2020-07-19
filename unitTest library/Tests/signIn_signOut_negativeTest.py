@@ -21,7 +21,7 @@ class signInTests(unittest.TestCase):
         driver = self.driver
         driver.get('https://opensource-demo.orangehrmlive.com/')
         
-        #Wrong password specified to check the validation
+        #Wrong password specified to check if the validation is working
         login = LoginPage(driver)
         login.enter_username('Admin')
         login.enter_password('admin12345')
