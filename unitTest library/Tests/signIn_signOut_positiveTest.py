@@ -12,7 +12,7 @@ from selenium.webdriver.common.keys import Keys
 class signInTests(unittest.TestCase):
     
     @classmethod
-    def setUpClass(cls): #Set of the browser settings before it's opening
+    def setUpClass(cls): #Browser settings before it's opening
         cls.driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
         cls.driver.implicitly_wait(5) #Wait until the element would be visible
         cls.driver.maximize_window() #Maximize opened window to avoid responsiveness issue
