@@ -19,7 +19,7 @@ class signInTests(unittest.TestCase):
         
     def test_1_validLoginLogout(self): #Test case for sing in and sign out to the HRM tool
         driver = self.driver
-        driver.get('https://opensource-demo.orangehrmlive.com/')
+        driver.get('https://opensource-demo.orangehrmlive.com')
         
         login = LoginPage(driver)
         login.enter_username('Admin')
