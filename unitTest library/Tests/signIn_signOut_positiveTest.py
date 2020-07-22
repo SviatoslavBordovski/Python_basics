@@ -15,7 +15,7 @@ class signInTests(unittest.TestCase):
     def setUpClass(cls): #Browser settings before it's opening
         cls.driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
         cls.driver.implicitly_wait(5) #Wait until every element would be visible
-        cls.driver.maximize_window() #Maximize opened window to avoid responsiveness issue
+        cls.driver.maximize_window() #Maximize opened window to avoid issues related to responsiveness
         
     def test_1_validLoginLogout(self): #Test case for sing in and sign out to the HRM tool
         driver = self.driver
