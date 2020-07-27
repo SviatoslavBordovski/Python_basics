@@ -51,7 +51,7 @@ class userManagement(unittest.TestCase):
         # driver.find_element_by_id('systemUser_password').send_keys('Superuser2020!')
         # driver.find_element_by_id('systemUser_confirmPassword').send_keys('Superuser2020!')
         # driver.find_element_by_id('btnSave').click()
-        time.sleep(10)
+        time.sleep(5)
         
         confirmationLink = 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers'
         
