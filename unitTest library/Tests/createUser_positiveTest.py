@@ -63,7 +63,7 @@ class userManagement(unittest.TestCase):
             #return error('User not created')
             self.fail('Refactor me')
         
-        
+        #Logout from the HRM system
         newUser = HomePage(driver)
         newUser.click_welcome()
         newUser.click_logout()
