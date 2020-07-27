@@ -30,7 +30,7 @@ class userManagement(unittest.TestCase):
         newUser.enter_password('admin123')
         newUser.click_login()
         
-        
+        #Create new User
         newUser = CreateUser(driver)
         newUser.adminSection_click()
         newUser.addUser_click()
@@ -62,7 +62,8 @@ class userManagement(unittest.TestCase):
         else:
             #return error('User not created')
             self.fail('Refactor me')
-            
+        
+        
         newUser = HomePage(driver)
         newUser.click_welcome()
         newUser.click_logout()
