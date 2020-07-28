@@ -55,6 +55,7 @@ class userManagement(unittest.TestCase):
         # driver.find_element_by_id('btnSave').click()
         time.sleep(5)
         
+        #Confirm the link that should be the last verified after successful adding the user
         confirmationLink = 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers'
         
         if driver.current_url == confirmationLink:
