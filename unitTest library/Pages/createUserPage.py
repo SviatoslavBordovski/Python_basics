@@ -48,4 +48,3 @@ class CreateUser():
         
     def click_save_user(self):
         self.driver.find_element_by_id(Locators.save_newUser_button_id).click()
-        
