@@ -30,7 +30,7 @@ class userManagement(unittest.TestCase):
         newUser.enter_password('admin123')
         newUser.click_login()
         
-        #Create new User
+        #Create a new User
         newUser = CreateUser(driver)
         newUser.adminSection_click()
         newUser.addUser_click()
