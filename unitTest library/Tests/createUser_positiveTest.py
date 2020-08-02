@@ -9,7 +9,7 @@ from ohrm.Pages.loginPage import LoginPage
 from ohrm.Pages.homePage import HomePage
 from ohrm.Pages.createUserPage import CreateUser
 #from ohrm.Tests.signIn_signOut_positiveTest import positiveSignIn <--- we need that test if needed to run it before the created in this file
-#from ohrm.Tests.signIn_signOut_negativeTest import negativeSignIn <--- we need that test if want to run it before the created in this file
+#from ohrm.Tests.signIn_signOut_negativeTest import negativeSignIn <--- we need that test if needed to run it before the created in this file
 from selenium.webdriver.common.keys import Keys
 
 class userManagement(unittest.TestCase):
