@@ -42,17 +42,6 @@ class userManagement(unittest.TestCase):
         newUser.new_user_confirm_password('Superuser2020!')
         newUser.click_save_user()
         
-        # driver.find_element_by_id('menu_admin_viewAdminModule').click()
-        # driver.find_element_by_id('btnAdd').click()
-        # driver.find_element_by_id('systemUser_userType').click()
-        # driver.find_element_by_xpath('//*[@id="systemUser_userType"]/option[1]').click()
-        # driver.find_element_by_id('systemUser_employeeName_empName').send_keys('Hello world')
-        # driver.find_element_by_id('systemUser_userName').send_keys('Superuser25')
-        # driver.find_element_by_id('systemUser_status').click()
-        # driver.find_element_by_xpath('//*[@id="systemUser_status"]/option[1]').click()
-        # driver.find_element_by_id('systemUser_password').send_keys('Superuser2020!')
-        # driver.find_element_by_id('systemUser_confirmPassword').send_keys('Superuser2020!')
-        # driver.find_element_by_id('btnSave').click()
         time.sleep(5)
         
         #Confirm the link that should be the last verified after successful adding the user
