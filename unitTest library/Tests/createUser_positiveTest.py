@@ -50,7 +50,6 @@ class userManagement(unittest.TestCase):
         if driver.current_url == confirmationLink:
             print(confirmationLink + ' / New user was created successfully!')
         else:
-            #return error('User was not created')
             self.fail('Refactor me')
         
         #Logout from HRM system
