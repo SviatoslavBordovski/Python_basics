@@ -23,7 +23,7 @@ class userManagement(unittest.TestCase):
     def test_3_createValidUser(self):
         driver = self.driver
         driver.get('https://opensource-demo.orangehrmlive.com/')
-        
+ 
         #Login to the HRM system
         newUser = LoginPage(driver)
         newUser.enter_username('admin')
