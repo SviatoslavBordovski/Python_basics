@@ -52,7 +52,7 @@ class userManagement(unittest.TestCase):
         else:
             self.fail('Refactor me')
         
-        #Logout from HRM
+        #Logout from OrangeHRM
         newUser = HomePage(driver)
         newUser.click_welcome()
         newUser.click_logout()
