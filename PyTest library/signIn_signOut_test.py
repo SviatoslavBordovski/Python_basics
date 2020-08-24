@@ -30,8 +30,3 @@ def test_validLoginLogout(test_setup):
     x = driver.title
     assert x == 'OrangeHRM'
     print('Passed Test')
-
-# def test_tearDown():
-#     driver.close()
-#     driver.quit()
-#     print('Mission accomplished')
