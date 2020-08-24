@@ -5,7 +5,7 @@ import os
 import pytest
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 from selenium.webdriver.common.keys import Keys
-from lib2to3.pgen2 import driver
+from lib2to3.pgen2 import driver #snippet that resolves the errors in vs code
 
 @pytest.fixture()
 def test_setup():
