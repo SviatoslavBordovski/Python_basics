@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
+import pytest
 import sys
 import os
-import pytest
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 from selenium.webdriver.common.keys import Keys
 from lib2to3.pgen2 import driver #this import snippet resolves import errors in VS code
