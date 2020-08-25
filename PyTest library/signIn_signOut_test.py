@@ -29,4 +29,4 @@ def test_validLoginLogout(test_setup):
     time.sleep(3)
     x = driver.title
     assert x == 'OrangeHRM'
-    print('Passed Test')
+    print('Missiokn accomplished')
