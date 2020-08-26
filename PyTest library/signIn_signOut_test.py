@@ -26,7 +26,6 @@ def test_validLoginLogout(test_setup):
     time.sleep(3)
     driver.find_element_by_id('welcome').click()
     driver.find_element_by_link_text('Logout').click()
-    time.sleep(3)
     x = driver.title
     assert x == 'OrangeHRM' #check for True value
     print('Mission accomplished!')
