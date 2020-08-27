@@ -16,7 +16,7 @@ def test_setup():
     yield
     driver.close()
     driver.quit()
-    print('Mission accomplished')
+    print('Test mission accomplished')
 
 def test_validLoginLogout(test_setup):
     driver.get('https://opensource-demo.orangehrmlive.com/')
