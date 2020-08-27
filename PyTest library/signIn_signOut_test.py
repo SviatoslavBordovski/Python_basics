@@ -11,7 +11,7 @@ from lib2to3.pgen2 import driver #this code snippet resolves import errors in VS
 def test_setup():
     global driver
     driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(5)
     driver.maximize_window()
     yield
     driver.close()
