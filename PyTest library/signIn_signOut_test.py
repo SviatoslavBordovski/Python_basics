@@ -5,7 +5,7 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 from selenium.webdriver.common.keys import Keys
-from lib2to3.pgen2 import driver #this code snippet resolves import errors in VS code
+from lib2to3.pgen2 import driver #This code snippet resolves import errors in VS code
 
 @pytest.fixture()
 def test_setup():
@@ -27,5 +27,5 @@ def test_validLoginLogout(test_setup):
     driver.find_element_by_id('welcome').click()
     driver.find_element_by_link_text('Logout').click()
     x = driver.title
-    assert x == 'OrangeHRM' #check for the True value of the page title read from the HTML
+    assert x == 'OrangeHRM' #Check for the True value of the page title read from the HTML
     print('Mission accomplished!')
