@@ -7,7 +7,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 from selenium.webdriver.common.keys import Keys
 from lib2to3.pgen2 import driver #This code snippet resolves importing errors in VS code IDE
 
-@pytest.fixture()
+@pytest.fixture() #Less code == more value ^_^
 def test_setup(): #setup and clean up after test finished
     global driver #Defined driver globally
     driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
