@@ -30,7 +30,7 @@ def test_validLoginLogout(test_setup): #simple steps and quick results
     assert x == 'OrangeHRM' #Check for the True value of the page title read from the HTML
     print('Mission accomplished!')
     
-@pytest.mark.skip(reason='not in scope of the sprint')
+@pytest.mark.skip(reason='not in scope of the sprint') #this test would be skipped 
 def test_invalid_login_logout(test_setup):
     driver.get('https://opensource-demo.orangehrmlive.com/')
     driver.find_element_by_id('txtUsername').send_keys('admin')
