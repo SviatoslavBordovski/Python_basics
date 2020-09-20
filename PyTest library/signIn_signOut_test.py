@@ -18,7 +18,7 @@ def test_setup(): #setup and clean up after test finished
     driver.quit()
     print('Test mission accomplished!')
 
-def test_validLoginLogout(test_setup): #simple steps and quick results
+def test_validLoginLogout(test_setup):
     driver.get('https://opensource-demo.orangehrmlive.com/')
     driver.find_element_by_id('txtUsername').send_keys('Admin')
     driver.find_element_by_id('txtPassword').send_keys('admin123')
