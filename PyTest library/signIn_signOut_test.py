@@ -13,7 +13,7 @@ def test_setup(): #setup and clean up after finished test
     driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
     driver.implicitly_wait(5)
     driver.maximize_window()
-    yield #using the 'yield' statement instead of 'return' statement, all the code after 'yield' statement serves as the teardown
+    yield #using 'yield' statement instead of 'return' statement, all the code after 'yield' statement serves as the teardown
     driver.close()
     driver.quit()
     print('Test accomplished!')
