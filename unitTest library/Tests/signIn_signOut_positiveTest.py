@@ -14,7 +14,7 @@ class signInTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls): #Browser settings before it's opening
         cls.driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
-        cls.driver.implicitly_wait(3) #Wait until needed element would be visible for the driver
+        cls.driver.implicitly_wait(8) #Wait until needed element would be visible for the driver
         cls.driver.maximize_window() #Maximize opened window to avoid issues related to responsiveness/locator search etc
         
     def test_1_validLoginLogout(self): #Test case for sing in and sign out to the HRM tool
@@ -30,7 +30,7 @@ class signInTests(unittest.TestCase):
         homepage.click_welcome()
         homepage.click_logout()
         
-        time.sleep(3)
+        time.sleep(8)
         print('Test case for Login and Logout was successfully completed!')
         
     @classmethod
