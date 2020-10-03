@@ -57,7 +57,7 @@ class userManagement(unittest.TestCase):
         newUser.click_welcome()
         newUser.click_logout()
         
-    @classmethod
+    @classmethod #Browser close and quit of driver
     def tearDownClass(cls):
         cls.driver.close()
         cls.driver.quit()
