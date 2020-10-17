@@ -26,7 +26,7 @@ print('Lets count all the fruits from our array basket (-:')
 for count in fruits:
     print(count)
 else:
-    print('You ate all the fruits! ^_
+    print('You ate all the fruits! ^_^')
 
 #Finally, trying show how is it possible to count the numbers in loop until the variable achieves the number and loop finishes:
 num = 10
