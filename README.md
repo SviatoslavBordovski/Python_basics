@@ -11,12 +11,13 @@
 
 <div>
   
-  <ol>
-      <li>Basics</li>
+<ol>
+<li>Basics</li>
       <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Basics/variables_syntax_functions_comments.py">Syntax, comments, functions</a></p>
     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Basics/if-else_loops.py">If/else statements and Loops</a></p>
     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Basics/classes_and_objects.py">Classes and objects</a></p>
-    <li>Collections</li>
+    
+<li>Collections</li>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/list.py">List</a></p>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/tuple.py">Tuple</a></p>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/set.py">Set</a></p>
@@ -26,7 +27,7 @@
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/unittest_file.py">Set up Unit Tests</a></p>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/test_cases.py">Test case examples</a></p>
         <p>:point_right: <a href="#">N/A</a></p>
-    </ol>
+</ol>
     
 </div>
   </body>
