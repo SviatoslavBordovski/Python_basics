@@ -19,7 +19,7 @@ for var in num:
 print('TOTAL IS', sum)
 
 #Another count of an array data but with strings:
-fruits = ['Five apples', 'Three oranges', 'Ten grapes']
+fruits = ['Five apples', 'Three oranges', 'Two grapes']
 
 print('Lets count all the fruits from our array basket (-:')
 
