@@ -1,6 +1,6 @@
 #Main goal here is to show how you can work with Python if/else statements and loops
 
-num = 0 #Assign value for 'num' variable
+num = 0 #Assign value to the 'num' variable
 
 #Lets show manipulation with 'num' variable:
 if num  > 0:
