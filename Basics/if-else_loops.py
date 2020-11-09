@@ -10,7 +10,7 @@ elif num == 0:
 else:
     print('Number is negative')
 
-#Continue  manipulation by declaring the array with data:
+#Continue  manipulation by declaring an array with some data:
 num = [1,2,3,4,5]
 sum = 0
 for var in num:
