@@ -11,7 +11,7 @@ from lib2to3.pgen2 import driver #line of code which resolves importing errors i
 def test_setup(): #setup and clean up after finished test
     global driver #defined driver globally
     driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
-    driver.implicitly_wait(5)
+    driver.implicitly_wait(10)
     driver.maximize_window()
     yield #using 'yield' statement instead of 'return' statement, all the code after 'yield' statement serves as the teardown
     driver.close()
