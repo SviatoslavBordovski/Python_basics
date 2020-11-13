@@ -2,7 +2,7 @@ from ohrm.Locators.locators import Locators
 
 class LoginPage():
     
-    def __init__(self, driver): #function that defines locators to be clicked
+    def __init__(self, driver): #function that defines a list of locators to be clicked
         self.driver = driver
         
         self.username_textbox_id = Locators.username_textbox_id
