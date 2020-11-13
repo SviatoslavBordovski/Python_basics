@@ -1,6 +1,6 @@
 from ohrm.Locators.locators import Locators
 
-#Functions that should be invoked in tests using the class below
+#List of functions that should be invoked in tests using the class below
 
 class CreateUser():
     def __init__(self, driver):
