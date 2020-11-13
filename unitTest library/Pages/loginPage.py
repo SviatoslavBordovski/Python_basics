@@ -17,5 +17,5 @@ class LoginPage():
         self.driver.find_element_by_id(Locators.password_textbox_id).clear()
         self.driver.find_element_by_id(Locators.password_textbox_id).send_keys(password)
         
-    def click_login(self): #function that clicks button with specified id
+    def click_login(self): #function that clicks on the button with specified id
         self.driver.find_element_by_id(Locators.login_button_id).click()
