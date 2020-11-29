@@ -17,7 +17,7 @@ class signInTests(unittest.TestCase):
         cls.driver.implicitly_wait(8) #Wait until element that is being searched would be visible for driver
         cls.driver.maximize_window() #Maximize browser window to avoid any issues related to website responsiveness/locator search
         
-    def test_1_validLoginLogout(self): #Test case for sing in and sign out to HRM system
+    def test_1_validLoginLogout(self): #Test case for sing in and sign out to the HRM system
         driver = self.driver
         driver.get('https://opensource-demo.orangehrmlive.com/')
         
