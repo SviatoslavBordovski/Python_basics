@@ -15,7 +15,7 @@ class signInTests(unittest.TestCase):
     def setUpClass(cls): #Browser settings before it's launch
         cls.driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
         cls.driver.implicitly_wait(8) #Wait until element that is being searched would be visible for driver
-        cls.driver.maximize_window() #Maximize browser window at the beginningof every test, it should avoid any issues related to website responsiveness/locator search
+        cls.driver.maximize_window() #Maximize browser window at the beginning of every test, it should avoid any issues related to website responsiveness/locator search
         
     def test_1_validLoginLogout(self): #Test case for sing in and sign out
         driver = self.driver
