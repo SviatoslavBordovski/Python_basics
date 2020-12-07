@@ -2,8 +2,8 @@ from selenium import webdriver
 import time
 import pytest
 import sys #import has strict order, this is a 1st line
-import os #this is 2nd line
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..')) #this is 3rd line
+import os #import has strict order, this is 2nd line
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..')) #import has strict order, this is 3rd line
 from selenium.webdriver.common.keys import Keys
 from lib2to3.pgen2 import driver #line of code which resolves importing errors in VS Code IDE but you can use PyCharm and see no errors :D
 
