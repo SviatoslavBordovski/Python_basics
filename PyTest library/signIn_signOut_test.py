@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from lib2to3.pgen2 import driver #line of code which resolves importing errors in VS Code IDE but you can use PyCharm and see no errors :D
 
 @pytest.fixture()
-def test_setup(): #setup and clean up after finished test
+def test_setup(): #setup and clean up
     global driver #defined driver globally
     driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
     driver.implicitly_wait(5)
