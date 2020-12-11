@@ -23,7 +23,7 @@ def test_validLoginLogout(test_setup):
     driver.find_element_by_id('txtUsername').send_keys('Admin')
     driver.find_element_by_id('txtPassword').send_keys('admin123')
     driver.find_element_by_id('btnLogin').click()
-    time.sleep(3)
+    time.sleep(5)
     driver.find_element_by_id('welcome').click()
     driver.find_element_by_link_text('Logout').click()
     x = driver.title
