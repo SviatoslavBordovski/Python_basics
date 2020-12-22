@@ -5,7 +5,7 @@ import sys #import has strict order, this is the 1st line
 import os #import has strict order, this is the 2nd line
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..')) #import has strict order, this is the 3rd line
 from selenium.webdriver.common.keys import Keys
-from lib2to3.pgen2 import driver #line of code which resolves import errors in VS Code IDE but you can use PyCharm and see no errors :D
+from lib2to3.pgen2 import driver #line of code which  is resolving some import errors in VS Code IDE but you can use PyCharm and see no errors :D
 
 @pytest.fixture()
 def test_setup(): #setup and clean up
