@@ -16,7 +16,7 @@ def test_setup(): #setup and clean up
     yield #using an 'yield' statement instead of the 'return' statement, all code would run after an 'yield' statement as a teardown
     driver.close()
     driver.quit()
-    print('All tests passed!')
+    print('All tests were passed!')
 
 def test_validLoginLogout(test_setup):
     driver.get('https://opensource-demo.orangehrmlive.com/')
