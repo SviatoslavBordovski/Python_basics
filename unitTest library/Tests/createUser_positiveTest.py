@@ -17,7 +17,7 @@ class userManagement(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
-        cls.driver.implicitly_wait(10)
+        cls.driver.implicitly_wait(5)
         cls.driver.maximize_window()
  
     def test_3_createValidUser(self):
