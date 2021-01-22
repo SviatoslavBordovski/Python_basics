@@ -49,7 +49,7 @@ class userManagement(unittest.TestCase):
         if driver.current_url == confirmationLink:
             print(confirmationLink + ' / New user was created successfully!')
         else:
-            self.fail('Fix me, geeez!')
+            self.fail('Fix me, geeeeez!')
         
         #Logout from OrangeHRM system
         newUser = HomePage(driver)
