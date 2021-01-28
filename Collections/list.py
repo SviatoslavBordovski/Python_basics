@@ -9,7 +9,7 @@ print(list_of_cities[2]) #London is an output
 list_of_cities[2] = 'Kiev'
 print(list_of_cities)
 
-#You can show the data without any brackets by simple loop run:
+#You can show data without any brackets by simple loop run:
 for val in list_of_cities:
     print(val)
     
