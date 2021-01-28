@@ -18,8 +18,8 @@ print(len(list_of_cities)) #Count number of values in the specified list
 list_of_cities.append('Boston') #added Boston at the end
 list_of_cities.insert(2, 'Vienna') #inserted city in an array in needed order
 list_of_cities.remove('Tokyo') #removed Tokyo from the list
-list_of_cities.pop() #removes the last element by default
-list_of_cities.pop(1) #removes the exact value that is selected
+list_of_cities.pop() #removes last element by default
+list_of_cities.pop(1) #removes exact value that is selected
 del list_of_cities[0] #removes first city in the list (London)
 list_of_cities.clear() #makes the list of array totally clear
 
