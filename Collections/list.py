@@ -13,7 +13,7 @@ print(list_of_cities)
 for val in list_of_cities:
     print(val)
     
-print(len(list_of_cities)) #Count the number of values in the specified list
+print(len(list_of_cities)) #Count number of values in the specified list
 
 list_of_cities.append('Boston') #added Boston at the end
 list_of_cities.insert(2, 'Vienna') #inserted city in the array in order that you need
