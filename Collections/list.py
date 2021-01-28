@@ -16,7 +16,7 @@ for val in list_of_cities:
 print(len(list_of_cities)) #Count number of values in the specified list
 
 list_of_cities.append('Boston') #added Boston at the end
-list_of_cities.insert(2, 'Vienna') #inserted city in the array in order that you need
+list_of_cities.insert(2, 'Vienna') #inserted city in an array in needed order
 list_of_cities.remove('Tokyo') #removed Tokyo from the list
 list_of_cities.pop() #removes the last element by default
 list_of_cities.pop(1) #removes the exact value that is selected
