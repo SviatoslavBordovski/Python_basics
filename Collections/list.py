@@ -23,7 +23,7 @@ list_of_cities.pop(1) #removes exact value that is selected
 del list_of_cities[0] #removes first city in the list (London)
 list_of_cities.clear() #makes list of array totally clear
 
-#Execute the list after changes:
+#Execute list after changes:
 print(list_of_cities)
 
 #Declare a list of fruits in array:
