@@ -21,7 +21,7 @@ list_of_cities.remove('Tokyo') #removed Tokyo from the list
 list_of_cities.pop() #removes last element by default
 list_of_cities.pop(1) #removes exact value that is selected
 del list_of_cities[0] #removes first city in the list (London)
-list_of_cities.clear() #makes the list of array totally clear
+list_of_cities.clear() #makes list of array totally clear
 
 #Execute the list after changes:
 print(list_of_cities)
