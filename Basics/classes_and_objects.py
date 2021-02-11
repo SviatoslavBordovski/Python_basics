@@ -14,7 +14,7 @@ class UnoMomento:
 
 #Manipulations using defined data with functions inside of class:
 Kyle = UnoMomento('Billy', 33)
-realage = str(20) #convert to a string to make the value of the same type with a text
+realage = str(20) #convert it to string to make value of the same type with a text
 passage = str(Kyle.age) #once again the same operation
 print(type(realage)) #type of the 'realage' variable
 print(type(passage)) #type of the 'realage' variable
