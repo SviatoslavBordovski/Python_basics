@@ -12,7 +12,7 @@ class UnoMomento:
     def sum(self, x, y):
         print(x + y)
 
-#Manipulations using the defined data with functions inside of class:
+#Manipulations using defined data with functions inside of class:
 Kyle = UnoMomento('Billy', 33)
 realage = str(20) #convert to a string to make the value of the same type with a text
 passage = str(Kyle.age) #once again the same operation
