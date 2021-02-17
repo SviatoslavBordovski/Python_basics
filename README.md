@@ -10,7 +10,6 @@
 <h2>Content</h2>
 
 <div>
-  
 <ol>
   
 <li>Basics</li>
@@ -29,7 +28,6 @@
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/test_cases.py">Test case examples</a></p>
         <p>:point_right: <a href="#">N/A</a></p>
 </ol>
-    
 </div>
 
   </body>
