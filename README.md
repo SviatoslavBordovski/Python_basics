@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   
-  <body>
+<body>
 <h1>:snake: Python: step by step for beginners</h1>
 <p>Series of guides about manipulations :trollface: and practical usage of <code>Python</code> programming language in the <code>SQA</code>.</p>
     <p>Every file of the project is designed in the way you can just paste the code snippet in <code>VS Code</code> or <code>PyCharm</code> IDE and easily run the file in the terminal, see the output, check the comments and learn how it works on practice.</p>
@@ -30,5 +30,5 @@
 </ol>
 </div>
 
-  </body>
+</body>
 </html>
