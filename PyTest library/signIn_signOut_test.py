@@ -27,7 +27,7 @@ def test_validLoginLogout(test_setup):
     driver.find_element_by_id('welcome').click()
     driver.find_element_by_link_text('Logout').click()
     x = driver.title
-    assert x == 'OrangeHRM' #check for 'True' value of the page title which is read from the HTML tree
+    assert x == 'OrangeHRM' #check for 'True' title value on the page which is read from the HTML tree
     print('This test is skipped!')
     
 @pytest.mark.skip(reason='test is not in scope of this sprint') #test would be skipped, reason could be specified in the brackets
