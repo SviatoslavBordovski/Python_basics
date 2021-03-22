@@ -9,7 +9,7 @@ from lib2to3.pgen2 import driver #line of code which  is resolving import errors
 
 @pytest.fixture()
 def test_setup(): #setup and teardown for the tests
-    global driver #defined driver globally
+    global driver #defined webdriver globally
     driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
     driver.implicitly_wait(5)
     driver.maximize_window()
