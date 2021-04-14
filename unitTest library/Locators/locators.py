@@ -1,15 +1,15 @@
 class Locators():
     
-    #Login page locators
+    #Login page
     username_textbox_id = 'txtUsername'
     password_textbox_id = 'txtPassword'
     login_button_id = 'btnLogin'
     
-    #Home page locators
+    #Home page
     welcome_link_id = 'welcome'
     logout_link_linkText = 'Logout'
     
-    #Adding new user locators
+    #Adding new user
     view_users_button_id = 'menu_admin_viewAdminModule'
     add_user_button_id = 'btnAdd'
     userRole_dropdown_id = 'systemUser_userType'
