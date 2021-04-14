@@ -9,7 +9,7 @@ class Locators():
     welcome_link_id = 'welcome'
     logout_link_linkText = 'Logout'
     
-    #Add new user locators
+    #Adding new user locators
     view_users_button_id = 'menu_admin_viewAdminModule'
     add_user_button_id = 'btnAdd'
     userRole_dropdown_id = 'systemUser_userType'
