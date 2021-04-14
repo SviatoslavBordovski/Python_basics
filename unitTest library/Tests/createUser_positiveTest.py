@@ -47,7 +47,7 @@ class userManagement(unittest.TestCase):
         confirmationLink = 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers'
         
         if driver.current_url == confirmationLink:
-            print(confirmationLink + ' / New user created successfully!')
+            print(confirmationLink + ' / New user was created successfully!')
         else:
             self.fail('Fix me, geeeeez!')
         
