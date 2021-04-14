@@ -35,7 +35,7 @@ class userManagement(unittest.TestCase):
         newUser.adminSection_click()
         newUser.addUser_click()
         newUser.userRole()
-        newUser.newEmployeeName('Hello world')
+        newUser.newEmployeeName('Hello World')
         newUser.newUsername('Superuser30')
         newUser.status_enabled()
         newUser.new_user_password('Superuser2020!')
