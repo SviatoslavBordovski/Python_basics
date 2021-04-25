@@ -41,7 +41,7 @@ class userManagement(unittest.TestCase):
         newUser.new_user_password('Superuser2020!')
         newUser.new_user_confirm_password('Superuser2020!')
         newUser.click_save_user()
-        time.sleep(5) #Time for check a confirmation link during test execution
+        time.sleep(3) #Time for check a confirmation link during test execution
         
         #Confirmation link that should be verified after successful user addition
         confirmationLink = 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers'
