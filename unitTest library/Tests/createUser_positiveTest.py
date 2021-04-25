@@ -43,7 +43,7 @@ class userManagement(unittest.TestCase):
         newUser.click_save_user()
         time.sleep(5) #Time for check a confirmation link during test execution
         
-        #Confirmation link that should be verified after the successful user addition
+        #Confirmation link that should be verified after successful user addition
         confirmationLink = 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers'
         
         if driver.current_url == confirmationLink:
