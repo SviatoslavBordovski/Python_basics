@@ -26,7 +26,7 @@ class userManagement(unittest.TestCase):
  
         #Login to HRM system
         newUser = LoginPage(driver)
-        newUser.enter_username('admin')
+        newUser.enter_username('Admin')
         newUser.enter_password('admin123')
         newUser.click_login()
         
