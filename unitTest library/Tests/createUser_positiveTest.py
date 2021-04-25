@@ -24,7 +24,7 @@ class userManagement(unittest.TestCase):
         driver = self.driver
         driver.get('https://opensource-demo.orangehrmlive.com/')
  
-        #Login to the HRM system
+        #Login to HRM system
         newUser = LoginPage(driver)
         newUser.enter_username('admin')
         newUser.enter_password('admin123')
