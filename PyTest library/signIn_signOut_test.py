@@ -23,7 +23,7 @@ def test_validLoginLogout(test_setup):
     driver.find_element_by_id('txtUsername').send_keys('Admin')
     driver.find_element_by_id('txtPassword').send_keys('admin123')
     driver.find_element_by_id('btnLogin').click()
-    time.sleep(10)
+    time.sleep(5)
     driver.find_element_by_id('welcome').click()
     driver.find_element_by_link_text('Logout').click()
     x = driver.title
@@ -39,7 +39,7 @@ def test_invalid_login_logout(test_setup):
     time.sleep(10)
     driver.find_element_by_id('welcome').click()
     driver.find_element_by_link_text('Logout').click()
-    time.sleep(10)
+    time.sleep(5)
     x = driver.title
     assert x == 'OrangeHRM'
     print('Login_Logout test has been passed')
