@@ -19,7 +19,7 @@ def test_setup(): # setup and teardown for all tests
     print('All tests passed!')
 
 def test_validLoginLogout(test_setup):
-    driver.get('https://opensource-demo.orangehrmlive.com/')
+    driver.get('https://opensource-demo.orangehrmlive.com')
     driver.find_element_by_id('txtUsername').send_keys('Admin')
     driver.find_element_by_id('txtPassword').send_keys('admin123')
     driver.find_element_by_id('btnLogin').click()
