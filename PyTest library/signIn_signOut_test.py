@@ -13,7 +13,7 @@ def test_setup(): #setup and teardown for all tests
     driver = webdriver.Chrome(executable_path='/home/incognito/Downloads/drivers/chromedriver')
     driver.implicitly_wait(5)
     driver.maximize_window()
-    yield #using a 'yield' statement instead of 'return' statement, all code would run after a 'yield' statement as teardown
+    yield # using a 'yield' statement instead of 'return' statement, all code would run after a 'yield' statement as teardown
     driver.close()
     driver.quit()
     print('All tests passed!')
@@ -27,10 +27,10 @@ def test_validLoginLogout(test_setup):
     driver.find_element_by_id('welcome').click()
     driver.find_element_by_link_text('Logout').click()
     x = driver.title
-    assert x == 'OrangeHRM' #check for 'True' title value on the page which should be read from HTML tree
+    assert x == 'OrangeHRM' # check for 'True' title value on the page which should be read from HTML tree
     print('This test is skipped!')
     
-@pytest.mark.skip(reason='test is not in scope of this sprint') #current test would be skipped, reason could be specified in brackets
+@pytest.mark.skip(reason='test is not in scope of this sprint') # current test would be skipped, reason could be specified in brackets
 def test_invalid_login_logout(test_setup):
     driver.get('https://opensource-demo.orangehrmlive.com/')
     driver.find_element_by_id('txtUsername').send_keys('admin')
