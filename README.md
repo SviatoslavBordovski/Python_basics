@@ -11,7 +11,7 @@
 
 <div>
 <ol>
-  
+    
 <li>Basics</li>
       <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Basics/variables_syntax_functions_comments.py">Syntax, comments, functions</a></p>
     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Basics/if-else_loops.py">If/else statements and Loops</a></p>
@@ -24,9 +24,9 @@
      <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/collections_dictionary.py">Dictionary</a></p>
 
  <li>Unit Testing</li>
-        <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/unittest_file.py">Set up Unit Tests</a></p>
-        <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/test_cases.py">Test case examples</a></p>
-        <p>:point_right: <a href="#">N/A</a></p>
+     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/unittest_file.py">Set up Unit Tests</a></p>
+     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/test_cases.py">Test case examples</a></p>
+     <p>:point_right: <a href="#">N/A</a></p>
 
 </ol>
 </div>
