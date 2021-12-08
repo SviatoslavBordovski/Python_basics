@@ -18,10 +18,10 @@
     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Basics/classes_and_objects.py">Classes and objects</a></p>
     
 <li>Collections</li>
-        <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/list.py">List</a></p>
-        <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/tuple.py">Tuple</a></p>
-        <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/set.py">Set</a></p>
-        <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/collections_dictionary.py">Dictionary</a></p>
+     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/list.py">List</a></p>
+     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/tuple.py">Tuple</a></p>
+     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/set.py">Set</a></p>
+     <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Collections/collections_dictionary.py">Dictionary</a></p>
 
  <li>Unit Testing</li>
         <p>:point_right: <a href="https://github.com/SviatoslavBordovski/Python_step_by_step/blob/master/Unit%20tests/unittest_file.py">Set up Unit Tests</a></p>
